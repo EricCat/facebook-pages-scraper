@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 def get_version():
     version_file = os.path.join(
-        os.path.dirname(__file__), "facebook_page_scraper", "__version__.py"
+        os.path.dirname(__file__), "facebook_pages_scraper", "__version__.py"
     )
     with open(version_file, "r") as f:
         version_vars = {}
@@ -16,7 +16,7 @@ setup(
     description="Facebook page scraper is a python package that helps you scrape data from facebook pages.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/SSujitX/facebook-page-scraper",
+    url="https://github.com/SSujitX/facebook-pages-scraper",
     author="Sujit Biswas",
     author_email="ssujitxx@gmail.com",
     license="MIT",
@@ -32,9 +32,9 @@ setup(
     ],
     keywords="facebook page scraper, scrape facebook page info, facebook data scraper, facebook page info extractor, python facebook scraper",
     project_urls={
-        "Bug Tracker": "https://github.com/SSujitX/facebook-page-scraper/issues",
-        "Documentation": "https://github.com/SSujitX/facebook-page-scraper#readme",
-        "Source Code": "https://github.com/SSujitX/facebook-page-scraper",
+        "Bug Tracker": "https://github.com/SSujitX/facebook-pages-scraper/issues",
+        "Documentation": "https://github.com/SSujitX/facebook-pages-scraper#readme",
+        "Source Code": "https://github.com/SSujitX/facebook-pages-scraper",
     },
     python_requires=">=3.9",
 )

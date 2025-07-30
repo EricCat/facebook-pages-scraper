@@ -1,4 +1,4 @@
-# facebook_page_scraper/__init__.py
+# facebook_pages_scraper/__init__.py
 
 from .page_info import PageInfo
 from .page_post_info import PagePostInfo

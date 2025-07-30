@@ -1,4 +1,4 @@
-# facebook_page_scraper/request_handler.py
+# facebook_pages_scraper/request_handler.py
 
 from curl_cffi import requests
 from selectolax.parser import HTMLParser

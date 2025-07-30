@@ -1,4 +1,4 @@
-# facebook_page_scraper/page_info.py
+# facebook_pages_scraper/page_info.py
 
 
 from typing import Optional, Dict
